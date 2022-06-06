@@ -1,0 +1,44 @@
+.form {
+    background-color: black;
+    width: 20px;
+    justify-content: center;
+    left:20px
+}
+.sneaks{
+    display: flexbox;
+    white-space: nowrap;
+    overflow: hidden;
+    .pic{
+        width: 150px;
+        justify-items: center;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-bottom: 60px;    
+    }
+
+}
+.button{
+    color: orange;
+    background-color: black;
+    border-radius: 20%;
+      
+}
+.inner{
+    background-color: orange;
+}
+
+.data{
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+}
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.show{
+    height:100px;
+    width:150px;
+    margin-top: 50px;
+    
+}
